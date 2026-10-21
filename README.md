@@ -31,10 +31,9 @@ cp .env.example .env   # 필요 시 값 채우기
 | Branch | 용도 |
 |---|---|
 | `main` | 완성된 결과물 (직접 push 지양) |
-| `develop` | 작업 통합 브랜치 |
-| `feature/<주제>` | 개별 분석/프로젝트 (예: `feature/retention-analysis`) |
+| `analysis-skryu` | 개인 작업 브랜치 |
 
-작업 흐름: `develop`에서 `feature/*` 생성 → 작업 후 `develop`으로 PR → 정리되면 `develop` → `main` PR
+작업 흐름: `analysis-skryu`에서 작업 → `main`으로 PR 후 병합
 
 ### Commit Convention
 
