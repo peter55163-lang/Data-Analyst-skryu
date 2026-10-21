@@ -1,0 +1,49 @@
+# ===== Data (원본/가공 데이터는 커밋하지 않음) =====
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.feather
+*.pkl
+*.h5
+*.db
+*.sqlite
+
+# ===== Secrets / credentials =====
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE / OS =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Claude Code local =====
+.claude/settings.local.json

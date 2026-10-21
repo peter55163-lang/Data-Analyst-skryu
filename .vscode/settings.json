@@ -1,0 +1,6 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

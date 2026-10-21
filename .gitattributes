@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ipynb linguist-language=Python
+*.sql linguist-detectable=true
+*.png binary
+*.jpg binary
+*.pdf binary
